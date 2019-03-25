@@ -1654,9 +1654,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2127289187}
   - component: {fileID: 2127289186}
-  - component: {fileID: 2127289188}
   - component: {fileID: 2127289190}
   - component: {fileID: 2127289189}
+  - component: {fileID: 2127289188}
   m_Layer: 0
   m_Name: frame-1
   m_TagString: Untagged
@@ -1735,14 +1735,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2127289185}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e7c5747b0fcb4941b5ee41725eee164, type: 3}
+  m_Script: {fileID: 11500000, guid: 6bc22b11baa68ad42bda643388fb6231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedFactor: 10
-  LimitTop: 4
-  LimitBottom: -4
-  LimitLeft: -8
-  LimitRight: 8
 --- !u!70 &2127289189
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
