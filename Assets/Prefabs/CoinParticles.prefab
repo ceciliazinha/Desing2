@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1343489504254619762}
   - component: {fileID: 600146046745150895}
   - component: {fileID: 7188545117302925272}
+  - component: {fileID: 7342167213074824106}
   m_Layer: 0
   m_Name: CoinParticles
   m_TagString: Untagged
@@ -4698,3 +4699,16 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &7342167213074824106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108573231504547246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24bb6c6cee686314788455e1f5aa0d99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 2
