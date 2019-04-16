@@ -2253,6 +2253,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TapeSpeed: {x: -2, y: 0, z: 0}
   Tape: {fileID: 1382520372}
+  uiComponets:
+    hud:
+      txtCoinCount: {fileID: 1390190354}
+      txtLifeCount: {fileID: 2147168922}
+      panelHud: {fileID: 980527067}
 --- !u!4 &789635945
 Transform:
   m_ObjectHideFlags: 0
