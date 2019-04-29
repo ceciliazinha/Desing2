@@ -25,6 +25,16 @@ public class UIComponets
         public GameObject LCPanel;
     }
 
+     [Serializable]
+   public class GameOverPanel
+    {
+        [Header("Text")]
+        public Text txtScore;
+        [Header("Other")]
+        public GameObject GOPanel;
+    }
+
     public Hud hud;
     public LevelCompletePanel levelCompletePanel;
+    public GameOverPanel gameOverPanel;
 }

@@ -36,6 +36,7 @@ void KillPlayer(){
   AudioManager.instance.PlaySoundFail(gameObject);
   SFXManager.instance.ShowDieParticles(gameObject);
   Destroy(gameObject);
+  LevelManager.instance.ShowGameOverPanel();
 }
 
 }
