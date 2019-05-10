@@ -1844,6 +1844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c6a03a03d849a04aa926a0b060eb50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fallLimit: 2
 --- !u!70 &545173181
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1875,7 +1876,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3499,7 +3500,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -360, y: -53.099976}
+  m_AnchoredPosition: {x: -360, y: -53.099854}
   m_SizeDelta: {x: 720, y: 106.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &980527069
@@ -3740,7 +3741,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 12.299988, y: 30}
+  m_AnchoredPosition: {x: 12.299927, y: 30}
   m_SizeDelta: {x: -104.6, y: -765.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1036045699
